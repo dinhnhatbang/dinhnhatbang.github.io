@@ -11,6 +11,12 @@
 }
 
 @media (max-width: 992px) {
+    #main {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     #main #content {
         margin-top: 20px;
     }
@@ -40,5 +46,39 @@
 @media (max-width: 480px) {
     #main {
         padding: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    #main #header{
+        flex-direction: column;
+    }
+    #main #header .menu ul{
+        justify-content: center;
+    }
+    #main #header .menu li{
+        margin: 0 12px!important;
+    }
+    #main #content .section-1 .detail .button{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 290px) {
+    #main #content .section-1 .avatar{
+        width: 100%;
+        min-width: 100%;
+    }
+    #main #content .section-1 .avatar img {
+        min-width: 150px;
+        width: 150px;
+        height: 150px;
+        border: 8px solid #444;
+        margin: 0 auto;
+    }
+    #main #content .section-1 .detail .name {
+        font-size: 38px;
     }
 }

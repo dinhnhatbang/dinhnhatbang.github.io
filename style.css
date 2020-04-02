@@ -9,7 +9,6 @@ body {
     font-family: 'Poppins', Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    min-width: 480px;
     background: #007ced url("background.png");
 }
 
