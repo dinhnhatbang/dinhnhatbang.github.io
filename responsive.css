@@ -1,12 +1,4 @@
-@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 1200px) {
-
-}
-
-@media (max-width: 992px) {
+@media (max-width: 1279px) {
     body {
         background: #222222;
     }
@@ -15,7 +7,12 @@
         border-radius: 0;
         background-color: #222222;
         padding: 40px 70px 60px;
-        margin: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    #main #content {
+        margin-top: 20px;
     }
 
     #main #content .section-1 {
@@ -43,8 +40,5 @@
 @media (max-width: 480px) {
     #main {
         padding: 20px;
-    }
-
-    #main #content .section-1 .avatar {
     }
 }

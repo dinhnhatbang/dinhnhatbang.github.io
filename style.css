@@ -9,6 +9,7 @@ body {
     font-family: 'Poppins', Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
+    min-width: 480px;
     background: #007ced url("background.png");
 }
 
@@ -23,7 +24,7 @@ a {
 }
 
 #main {
-    max-width: 1320px;
+    max-width: 1280px;
     border-radius: 40px;
     background-color: #222222;
     margin: 3% auto;
@@ -36,11 +37,11 @@ a {
     align-items: center;
 }
 
-#main #header .logo a{
+#main #header .logo a {
     display: flex;
 }
 
-#main #header .logo .symbol{
+#main #header .logo .symbol {
     width: 44px;
     border-radius: 100px;
     height: 44px;
@@ -65,7 +66,7 @@ a {
     font-weight: 600;
 }
 
-#main #header .logo .title span{
+#main #header .logo .title span {
     font-weight: 400;
 }
 
