@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: initial;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #007ced url("background.png");
+}
+
+a {
+    font-size: 14px;
+    line-height: 3.3em;
+    font-weight: 400;
+    font-style: normal;
+    color: #f5f5f5;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+#main {
+    max-width: 1320px;
+    border-radius: 40px;
+    background-color: #222222;
+    margin: 3% auto;
+    padding: 40px 70px 60px;
+}
+
+#main #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main #header .logo a{
+    display: flex;
+}
+
+#main #header .logo .symbol{
+    width: 44px;
+    border-radius: 100px;
+    height: 44px;
+    text-align: center;
+    background: #007ced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+#main #header .logo .symbol:before {
+    content: 'B';
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#main #header .logo .title {
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#main #header .logo .title span{
+    font-weight: 400;
+}
+
+
+#main #header .menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#main #header .menu ul li {
+    margin-left: 20px;
+}
+
+
+#main #content .section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 10%;
+}
+
+#main #content .section-1 .avatar {
+    overflow: hidden;
+    min-width: calc(300px + 15px);
+    width: calc(300px + 15px);
+}
+
+#main #content .section-1 .avatar img {
+    display: block;
+    position: relative;
+    background-color: #444;
+    border: 15px solid #444;
+    border-radius: 1000px;
+    min-width: 300px;
+    width: 300px;
+    height: 300px;
+}
+
+#main #content .section-1 .detail {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#main #content .section-1 .detail .title {
+    font-size: 16px;
+    color: #aaa;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#main #content .section-1 .detail .name {
+    font-weight: 600;
+    font-style: normal;
+    color: #f5f5f5;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#main #content .section-1 .detail .about-me {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #d5d5d5;
+    margin: 0 0 10px;
+}
+
+#main #content .section-1 .detail .button {
+    margin-top: 27px;
+}
+
+#main #content .section-1 .detail .button button {
+    border: 2px solid #d5d5d5;
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, .78);
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    padding: .8em 2.1em;
+    margin-bottom: .75em;
+    margin-right: .25em;
+    font-size: 1em;
+    line-height: 1.2;
+    outline: 0;
+}
+
+#main #content .section-1 .detail .button button.download-cv {
+    border-color: #007ced;
+}
