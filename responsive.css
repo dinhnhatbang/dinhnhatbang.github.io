@@ -56,10 +56,6 @@
         min-width: 100%;
     }
 
-    #main #header .logo .symbol {
-        margin-right: 0 !important;
-    }
-
     #main #content .section-1 .avatar img {
         min-width: 150px;
         width: 200px;
@@ -75,6 +71,9 @@
 }
 
 @media (max-width: 321px) {
+    #main #header .logo .symbol {
+        margin-right: 0 !important;
+    }
     #main #header {
         flex-direction: column;
     }
