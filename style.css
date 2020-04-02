@@ -10,6 +10,9 @@ body {
     font-size: 14px;
     font-weight: 400;
     background: #007ced url("background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
