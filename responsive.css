@@ -20,6 +20,7 @@
 
     #main #content .section-1 {
         flex-direction: column;
+        margin: 0;
     }
 
     #main #content .section-1 .detail {
@@ -30,7 +31,6 @@
         margin-top: 20px;
         padding: 0;
     }
-
 
 }
 
