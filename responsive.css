@@ -17,6 +17,7 @@
         justify-content: center;
         flex-direction: column;
     }
+
     #main #content {
         margin-top: 20px;
     }
@@ -50,16 +51,15 @@
 }
 
 @media (max-width: 360px) {
-    #main #content .section-1 .avatar{
+    #main #content .section-1 .avatar {
         width: 100%;
         min-width: 100%;
     }
-    #main #header .logo .symbol{
-        margin-right: 0!important;
+
+    #main #header .logo .symbol {
+        margin-right: 0 !important;
     }
-    #main #header .logo .title{
-        display: none;
-    }
+
     #main #content .section-1 .avatar img {
         min-width: 150px;
         width: 200px;
@@ -67,26 +67,35 @@
         border: 8px solid #444;
         margin: 0 auto;
     }
-    #main #header{
-        flex-direction: column;
-    }
-    #main #header .menu ul{
-        justify-content: center;
-    }
-    #main #header .menu li{
-        margin: 0 12px!important;
-    }
-    #main #content .section-1 .detail .button{
-        display: flex;
-        flex-direction: column;
-    }
+
+
     #main #content .section-1 .detail .name {
         font-size: 38px;
     }
 }
 
+@media (max-width: 321px) {
+    #main #header {
+        flex-direction: column;
+    }
 
-@media (max-width: 290px) {
+    #main #header .menu ul {
+        justify-content: center;
+    }
+
+    #main #header .menu li {
+        margin: 0 12px !important;
+    }
+
+    #main #header .logo .title {
+        display: none;
+    }
+
+    #main #content .section-1 .detail .button {
+        display: flex;
+        flex-direction: column;
+    }
+
     #main #content .section-1 .avatar img {
         min-width: 150px;
         width: 150px;
@@ -94,7 +103,12 @@
         border: 8px solid #444;
         margin: 0 auto;
     }
+
     #main #content .section-1 .detail .name {
         font-size: 38px;
+    }
+
+    #main #content .section-1 .detail .button button.download-cv {
+        margin-bottom: 20px;
     }
 }
